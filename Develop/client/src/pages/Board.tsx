@@ -9,7 +9,7 @@ import { ApiMessage } from '../interfaces/ApiMessage';
 
 import auth from '../utils/auth';
 
-const boardStates = ['Todo', 'In Progress', 'Done'];
+const boardStates = ['To-Do', 'In Progress', 'Done'];
 
 const Board = () => {
   const [tickets, setTickets] = useState<TicketData[]>([]);
