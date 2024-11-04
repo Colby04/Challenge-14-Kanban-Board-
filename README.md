@@ -30,7 +30,6 @@ cd kanban-board
 ## Set up the server:
 
 ### Navigate to the server directory:
-- - Copy code
 - - cd server
 - - Create a .env file and add your database credentials and JWT secret:
 - - DB_USERNAME= username here
